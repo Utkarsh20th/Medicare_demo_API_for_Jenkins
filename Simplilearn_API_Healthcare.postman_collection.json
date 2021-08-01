@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "56555558-7d49-42a9-98c6-0119589c334a",
+		"name": "Simplilearn_API_Healthcare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET_Products_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/medicare/json/data/mv/products",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"mv",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Products_2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/medicare/json/data/mp/products",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"mp",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_specific_Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/medicare/json/data/category/2/products?_=1627826972075",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"category",
+						"2",
+						"products"
+					],
+					"query": [
+						{
+							"key": "_",
+							"value": "1627826972075"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_all_Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/medicare/json/data/all/products?_=1627827054875",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"all",
+						"products"
+					],
+					"query": [
+						{
+							"key": "_",
+							"value": "1627827054875"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_Manage_Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8082/medicare/json/data/admin/all/products?_=1627827383478",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8082",
+					"path": [
+						"medicare",
+						"json",
+						"data",
+						"admin",
+						"all",
+						"products"
+					],
+					"query": [
+						{
+							"key": "_",
+							"value": "1627827383478"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
